@@ -1,0 +1,66 @@
+html{
+font-size: larger;
+text-align: center;
+background-image: url(./who.jpg);
+}
+
+.header{
+    font-size: larger;
+    text-align: center;
+    background-color: rgb(99, 87, 175) ;
+    border-radius: 10px;
+    height: 100px;
+    padding: 5px;
+    }
+    .container{border:solid greenyellow 3px;
+    height: 100px;
+padding: 10px;
+background-color: chocolate;
+background-repeat: no-repeat;
+width: 100%;
+display: FLEX;
+gap: 50%;
+width: 100%;
+}
+.over{
+    text-align: center;
+    width: 50%;
+
+}
+
+.gallery{
+
+    text-align: center;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.foot{
+    border: solid green 2px;
+    height: 50px;
+    width: 100%;
+    display: FLEX;
+    gap: 10px;
+    background-color: darkolivegreen;
+}
+.int{  
+    background-color: yellow;
+    width: 33%;
+}
+
+.gal{ background-color: green;
+    width: 33%;
+}
+.h{background-color: brown;
+width: 33%;}
+
+.int:hover{  
+    background-color: aqua;
+    width: 33%;
+}
+
+.gal:hover{ background-color: chartreuse;
+    width: 33%;
+}
+.h:hover{background-color: darkmagenta;
+width: 33%;}

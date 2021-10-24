@@ -1,0 +1,6 @@
+.all
+{background-color: red;
+    text-align: center;
+}
+.btn:hover{ background-color: dodgerblue;}
+.btn:active{ background-color: darkviolet;}

@@ -1,0 +1,134 @@
+
+html{background-color:aquamarine}
+.container{border: solid red 2px;
+    height: 100px;
+border-radius: 20px;
+text-align: center;
+padding: 20px;
+width: auto;
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+background-color: darkgreen;
+border-color: black;
+font-size: large;
+font-weight: 900;
+font-style: oblique;
+font-stretch: expanded;
+
+}
+.container:hover{background-color: darkblue;
+color: yellow;}
+
+h1:hover{color: chocolate;
+}
+
+h1:active{color: purple;
+}
+
+
+
+.photo{
+    solid 2px;
+height: 400px;
+width:100%;
+background-image: url(./photo2.jpg);
+background-repeat: no-repeat;
+border-radius: 20px;
+background-attachment: scroll;
+}
+
+.text{
+text-align: center;
+color:blue;
+padding:10px;
+font-size: larger;
+margin-top: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.text:hover{
+    color:yellow}
+
+    .text:active{
+        color:purple}
+
+
+.footer{
+    background-color: aquamarine;
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+   
+    display: flex;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.home{
+    background-color: yellowgreen;
+border-radius: 20px;
+    width: 20%;
+padding: 100px;
+}
+.home:hover{
+    
+    background-color: red;
+}
+
+
+.contact{ background-color: darkgreen;
+color: #000;
+border-radius: 20px;
+    width: 20%;
+padding: 100px;
+}
+.contact:hover{
+    background-color:yellow;
+}
+
+
+
+
+.about{
+    background-color: chocolate;
+color: white;
+border-radius: 20px;
+    width: 20%;
+padding: 100px;
+}
+.about:hover{
+    background-color: darkmagenta;
+}
+
+
+
+
+
+.register{
+    color red;
+    background-color: deeppink ;
+    border-radius: 20px;
+    width: 20%;
+padding: 100px;
+}
+.register:hover{color white;
+    background-color:yellow;
+}
+
+
+
+
+.icon{
+    background-color: red;
+display: flex;
+    width: 20%;
+padding: 100px;
+gap: 10px;
+border-radius: 20px;
+}
+.icon:hover{
+background-color: crimson ;
+
+}
+
